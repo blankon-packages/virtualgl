@@ -1,3 +1,9 @@
+virtualgl (2.5-0blankon2) tambora; urgency=medium
+
+  * Change depends libturbojpeg to libturbojpeg0 
+
+ -- dotovr <dotovr@preko>  Sun, 26 Jun 2016 21:53:47 +0700
+
 virtualgl (2.5-0blankon1) tambora; urgency=medium
 
   * Initial release for tambora

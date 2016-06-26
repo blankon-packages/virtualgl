@@ -5,7 +5,7 @@ Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 Uploaders: Mahyuddin Idram Ahmad <dotovr@di.blankon.in>
 Build-Depends: debhelper (>= 9), cmake (>= 2.8), libturbojpeg0-dev,
  libjpeg62-turbo-dev, libx11-dev, libxext-dev, libgl1-mesa-dev, libglu1-mesa-dev,
- libxv-dev
+ libxv-dev, libturbojpeg0-dev
 Standards-Version: 3.9.5
 Homepage: http://www.virtualgl.org/
 Vcs-Browser: http://virtualgl.svn.sourceforge.net/viewvc/virtualgl/vgl/
@@ -45,7 +45,7 @@ Description: Toolkit for displaying OpenGL applications to thin clients
 
 Package: virtualgl-libs
 Architecture: i386 amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, libturbojpeg
+Depends: ${shlibs:Depends}, ${misc:Depends}, libturbojpeg0
 Multi-Arch: same
 Description: Library files for virtualgl
  This package contains the libraries for virtualgl which are loaded when
